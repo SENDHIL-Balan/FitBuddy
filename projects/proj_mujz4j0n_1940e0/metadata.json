@@ -1,0 +1,25 @@
+{
+  "id": "proj_mujz4j0n_1940e0",
+  "url": "https://example.com",
+  "title": "Example Domain",
+  "createdAt": "2026-09-27T15:28:55.368Z",
+  "updatedAt": "2026-09-27T15:29:25.659Z",
+  "status": "error",
+  "repairAttempts": 3,
+  "files": [
+    "package.json",
+    "src/components/Navbar.tsx",
+    "src/components/Hero.tsx",
+    "src/components/Guidelines.tsx",
+    "src/components/Cta.tsx",
+    "src/components/Footer.tsx",
+    "src/App.tsx"
+  ],
+  "lastValidationErrors": [
+    "Unresolved internal import \"./components/Navbar.tsx\" referenced in src/App.tsx",
+    "Unresolved internal import \"./components/Hero.tsx\" referenced in src/App.tsx",
+    "Unresolved internal import \"./components/Guidelines.tsx\" referenced in src/App.tsx",
+    "Unresolved internal import \"./components/Cta.tsx\" referenced in src/App.tsx",
+    "Unresolved internal import \"./components/Footer.tsx\" referenced in src/App.tsx"
+  ]
+}

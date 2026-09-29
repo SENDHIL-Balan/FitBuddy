@@ -1,0 +1,6 @@
+{
+  "name": "FITBUDDY AI",
+  "description": "Your intelligent fitness companion - A premium 3D fitness AI platform with interactive biomechanics, personalized workout generation, real-time AI coaching, and futuristic performance telemetry.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

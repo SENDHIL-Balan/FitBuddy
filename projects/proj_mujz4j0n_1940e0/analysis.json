@@ -1,0 +1,161 @@
+{
+  "url": "https://example.com/",
+  "title": "Example Domain",
+  "description": "",
+  "theme": {
+    "primaryColor": "#38488f",
+    "secondaryColor": "#64748B",
+    "backgroundColor": "#F8FAFC",
+    "surfaceColor": "#FFFFFF",
+    "textColor": "#1E293B",
+    "accentColor": "#2563EB",
+    "fontStyle": "modern sans",
+    "borderRadius": "rounded-xl",
+    "mood": "Minimalist Technical Reference & Standards"
+  },
+  "navigation": {
+    "brandName": "Example Domain",
+    "links": [
+      {
+        "label": "Documentation",
+        "href": "#documentation"
+      },
+      {
+        "label": "Standards & RFCs",
+        "href": "#standards"
+      },
+      {
+        "label": "IANA Guidelines",
+        "href": "#guidelines"
+      }
+    ],
+    "ctaButton": {
+      "label": "More Information",
+      "variant": "primary"
+    }
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "hero",
+      "name": "Hero Section",
+      "headline": "Example Domain",
+      "subheadline": "This domain is established to be used for illustrative examples in documents without needing prior coordination or permission.",
+      "badge": "RFC 2606 & RFC 6761",
+      "items": [],
+      "actions": [
+        {
+          "label": "Read Specifications",
+          "primary": true
+        },
+        {
+          "label": "Learn More",
+          "primary": false
+        }
+      ],
+      "layoutHint": "centered-minimal-card"
+    },
+    {
+      "id": "guidelines",
+      "type": "features",
+      "name": "Usage Guidelines",
+      "headline": "Permitted Usage & Implementation",
+      "subheadline": "Guidelines on using example.com, example.net, and example.org in technical documentation and code samples.",
+      "badge": "SPECIFICATIONS",
+      "items": [
+        {
+          "title": "Documentation Examples",
+          "description": "Safe to include in books, code samples, API guides, and system configuration examples.",
+          "iconName": "BookOpen",
+          "imageUrl": "",
+          "tag": "Permitted",
+          "metric": "100% Free"
+        },
+        {
+          "title": "Zero Operational Risk",
+          "description": "Reserved by the IANA to ensure these hostnames are never registered by third parties.",
+          "iconName": "ShieldCheck",
+          "imageUrl": "",
+          "tag": "Safe",
+          "metric": "Reserved"
+        },
+        {
+          "title": "Avoid Operational Use",
+          "description": "Do not configure operational mail servers or mission-critical DNS relying on this domain.",
+          "iconName": "AlertCircle",
+          "imageUrl": "",
+          "tag": "Notice",
+          "metric": "Strict Policy"
+        }
+      ],
+      "actions": [],
+      "layoutHint": "3-col-card-grid"
+    },
+    {
+      "id": "cta",
+      "type": "cta",
+      "name": "Documentation Callout",
+      "headline": "Need More Information on Reserved Domains?",
+      "subheadline": "Explore the full Internet Assigned Numbers Authority (IANA) registry and RFC definitions.",
+      "badge": "RESOURCES",
+      "items": [],
+      "actions": [
+        {
+          "label": "Visit IANA Registry",
+          "primary": true
+        }
+      ],
+      "layoutHint": "banner-centered"
+    },
+    {
+      "id": "footer",
+      "type": "footer",
+      "name": "Footer",
+      "headline": "Example Domain",
+      "subheadline": "Maintained by the Internet Assigned Numbers Authority (IANA) on behalf of the Internet Engineering Task Force (IETF).",
+      "badge": "",
+      "items": [
+        {
+          "title": "IANA Reserved Names",
+          "description": "Special-Use Domain Names registry",
+          "iconName": "Globe",
+          "imageUrl": "",
+          "tag": "Reference",
+          "metric": ""
+        }
+      ],
+      "actions": [],
+      "layoutHint": "simple-centered-footer"
+    }
+  ],
+  "typography": {
+    "headings": [
+      "Inter",
+      "system-ui",
+      "-apple-system",
+      "sans-serif"
+    ],
+    "bodyFont": "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+  },
+  "assets": [
+    {
+      "url": "",
+      "alt": "Example Domain Minimal Technical Hero",
+      "type": "hero"
+    }
+  ],
+  "responsiveStructure": {
+    "mobileNav": "collapsible-drawer",
+    "gridStacking": "stack-to-single-column-below-768px",
+    "spacingScale": "spacious"
+  },
+  "rawDomSummary": {
+    "totalElements": 12,
+    "textWordCount": 17,
+    "detectedImagesCount": 0,
+    "detectedColors": [
+      "#eee",
+      "#348"
+    ]
+  }
+}
